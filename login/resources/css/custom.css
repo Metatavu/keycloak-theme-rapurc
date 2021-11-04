@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500&display=swap');
+
+/* primary: {
+  main: "#009E9E",
+  light: "#56D0CF",
+  dark: "#006F70"
+},
+secondary: {
+  main: "#FF7F56",
+  light: "#FFB084",
+  dark: "#C74F2B"
+}, */
+
+*:focus {
+  outline: 1px solid #009E9E;
+}
+
+.login-pf body {
+  background: url("../img/background-4k.jpg");
+  background-size: "cover";
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800;
+}
+
+#kc-header-wrapper,
+#kc-header-wrapper a {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800;
+  letter-spacing: normal;
+  padding: 0;
+  text-align: left;
+  padding-left: 24px;
+}
+
+div.kc-logo-text {
+  height: 63px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1#kc-page-title {
+  font-size: 32px;
+}
+
+.pf-c-form__label-text {
+  font-weight: 700
+}
+
+.pf-c-form-control {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease-out;
+}
+
+.pf-c-form-control:hover, .pf-c-form-control:focus {
+  border-bottom-color: #FF7F56;
+}
+
+.show-details {
+  display: none;
+  position: absolute;
+  width: 400px;
+  height: 100px;
+}
+
+#show-details {
+  color:rgba(255, 255, 255, 0.5);
+}
+
+#username {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.details-container {
+  width: 400px;
+  height: 120px;
+  background: transparent;
+  padding: 10px;
+}
+
+.details-container:hover .show-details{
+  display: block;
+}
+
+.card-pf {
+  margin-top: 60px;
+  background: transparent;
+  box-shadow: none;
+  color: #fff;
+  border: 0;
+}
+
+.pf-c-form-control:not(textarea) {
+  height: 46px;
+}
+
+.pf-c-button.pf-m-primary.pf-m-block.btn-lg {
+  height: 46px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: background-color 0.2s ease-out;
+}
+
+.pf-c-button.pf-m-primary.pf-m-block.btn-lg:hover {
+  background-color: #309da5
+}
+
+.pf-c-button.pf-m-primary.pf-m-block.btn-lg:active {
+  background-color: #1d1d1d
+}
+
+.required {
+  color: #fd7b7b;
+}
+
+.login-pf-page-header {
+  margin-bottom: 0
+}
+
+#kc-form-login {
+  position: "relative"
+}
+
+#kc-info:after {
+  display: block;
+  text-align: center;
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis ut turpis magnis erat adipiscing ac turpis sed etiam.";
+  margin: 24px;
+  font-size: 16px;
+}
+
+.login-pf-page .login-pf-signup {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#kc-info-wrapper {
+  font-size: 16px;
+  padding: 15px 35px;
+  background-color: transparent;
+}
+
+.login-pf-page .login-pf-signup a {
+  margin: 0;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  height: 46px;
+  text-transform: uppercase;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-out;
+}
