@@ -17,9 +17,10 @@ secondary: {
 
 .login-pf body {
   background: url("../img/background-4k.jpg");
-  background-size: "cover";
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: auto;
   min-height: 100vh;
   font-family: 'Quicksand', sans-serif;
 }
@@ -103,6 +104,7 @@ h1#kc-page-title {
 }
 
 .pf-c-button.pf-m-primary.pf-m-block.btn-lg {
+  font-size: 16px;
   height: 46px;
   text-transform: uppercase;
   background-color: transparent;
@@ -111,7 +113,7 @@ h1#kc-page-title {
 }
 
 .pf-c-button.pf-m-primary.pf-m-block.btn-lg:hover {
-  background-color: #309da5
+  background-color: #009E9E
 }
 
 .pf-c-button.pf-m-primary.pf-m-block.btn-lg:active {
@@ -130,12 +132,19 @@ h1#kc-page-title {
   position: "relative"
 }
 
-#kc-info:after {
+.login-pf-page .card-pf p {
+  color: #fff;
+}
+
+.description {
   display: block;
   text-align: center;
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis ut turpis magnis erat adipiscing ac turpis sed etiam.";
-  margin: 24px;
+  margin: 24px; 
+}
+
+.description p {
   font-size: 16px;
+  color: #fff;
 }
 
 .login-pf-page .login-pf-signup {
@@ -160,4 +169,67 @@ h1#kc-page-title {
   justify-content: center;
   align-items: center;
   transition: background-color 0.2s ease-out;
+}
+
+.partner-logos {
+  padding: 32px;
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.partner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eu-logos {
+  background: #fff;
+  display: flex;
+  padding: 32px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.eu-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+}
+
+.partner-logo img {
+  max-height: 120px;
+}
+.eu-logo img {
+  max-height: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  #kc-header-wrapper {
+    font-size: 24px;
+  }
+
+  h1#kc-page-title {
+    font-size: 24px;
+  }
+
+  .partner-logos {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .partner-logo img {
+    max-height: 80px;
+  }
+
+  .eu-logos {
+    padding: 16px;
+  }
+
+  .eu-logo img {
+    max-height: 80px;
+  }
 }
