@@ -233,3 +233,29 @@ h1#kc-page-title {
     max-height: 80px;
   }
 }
+
+.login-pf a {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px
+}
+
+.login-pf a:hover {
+  color: rgba(255, 255, 255, 1)
+}
+
+#kc-form-options .checkbox {
+  margin-top: 10px;
+  color: #fff;
+}
+
+#kc-form-options .checkbox label {
+  margin-top: 0;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.login-pf-page .login-pf-settings {
+  align-items: center;
+}
